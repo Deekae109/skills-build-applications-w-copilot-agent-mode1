@@ -1,0 +1,124 @@
+/* App.css - OctoFit Tracker custom styles */
+
+body {
+  background: linear-gradient(135deg, #e0e7ff 0%, #f8fafc 100%);
+  color: #22223b;
+  font-family: 'Segoe UI', 'Roboto', 'Arial', sans-serif;
+}
+
+.navbar {
+  background: linear-gradient(90deg, #3a86ff 0%, #8338ec 100%) !important;
+  box-shadow: 0 2px 8px rgba(51, 38, 89, 0.08);
+}
+
+.navbar .navbar-brand, .navbar .nav-link {
+  color: #fff !important;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+
+.navbar .nav-link.active, .navbar .nav-link:hover {
+  color: #ffbe0b !important;
+}
+
+.card {
+  border-radius: 1rem;
+  border: none;
+  background: #f7faff;
+  box-shadow: 0 2px 12px rgba(58, 134, 255, 0.08);
+}
+
+.card-title {
+  color: #3a86ff;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.table {
+  background: #fff;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.table thead {
+  background: linear-gradient(90deg, #3a86ff 0%, #ffbe0b 100%);
+  color: #fff;
+}
+
+.table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: #e0e7ff;
+}
+
+.btn-primary, .btn-success, .btn-info, .btn-warning, .btn-secondary {
+  border: none;
+  border-radius: 2rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  box-shadow: 0 2px 8px rgba(58, 134, 255, 0.08);
+  transition: background 0.2s, color 0.2s;
+}
+
+.btn-primary {
+  background: linear-gradient(90deg, #3a86ff 0%, #8338ec 100%);
+}
+
+.btn-primary:hover {
+  background: linear-gradient(90deg, #8338ec 0%, #3a86ff 100%);
+  color: #fff;
+}
+
+.btn-success {
+  background: linear-gradient(90deg, #06d6a0 0%, #3a86ff 100%);
+}
+
+.btn-info {
+  background: linear-gradient(90deg, #00b4d8 0%, #3a86ff 100%);
+}
+
+.btn-warning {
+  background: linear-gradient(90deg, #ffbe0b 0%, #ff006e 100%);
+  color: #fff;
+}
+
+.btn-secondary {
+  background: linear-gradient(90deg, #adb5bd 0%, #3a86ff 100%);
+}
+
+a, .btn-link {
+  color: #3a86ff;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+a:hover, .btn-link:hover {
+  color: #ffbe0b;
+  text-decoration: underline;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #3a86ff;
+  font-weight: 700;
+}
+
+.alert-info {
+  background: #e0e7ff;
+  color: #3a86ff;
+  border: none;
+}
+
+/* Logo styling */
+.octofit-logo {
+  height: 40px;
+  margin-right: 16px;
+  vertical-align: middle;
+}
+
+@media (max-width: 576px) {
+  .navbar .navbar-brand {
+    font-size: 1.1rem;
+  }
+  .octofit-logo {
+    height: 32px;
+    margin-right: 8px;
+  }
+}
