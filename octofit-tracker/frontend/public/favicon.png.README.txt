@@ -1,0 +1,5 @@
+/*
+  This is a placeholder for the favicon. Please copy your desired favicon image to:
+  octofit-tracker/frontend/public/favicon.png
+  and it will be used as the app's favicon.
+*/

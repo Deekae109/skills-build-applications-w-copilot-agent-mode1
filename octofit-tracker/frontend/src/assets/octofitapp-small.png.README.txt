@@ -1,0 +1,2 @@
+// Place this file in src/assets/octofitapp-small.png
+// This is a placeholder for the OctoFit logo. Please copy the logo image here.
